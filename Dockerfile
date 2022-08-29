@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer="Jens Heidbüchel <j.heidbuechel@fz-juelich.de>"
+LABEL maintainer="Jens Heidbüchel <j.heidbuechel@mailbox.org>"
 
 RUN apk add --no-cache avahi && \
     sed -i 's/#enable-dbus=yes/enable-dbus=no/g' /etc/avahi/avahi-daemon.conf && \
