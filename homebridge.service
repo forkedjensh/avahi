@@ -1,0 +1,18 @@
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+<service-group>
+<name replace-wildcards="yes">Homebridge 2F2F A92F</name>
+<service>
+	<type>_hap._tcp</type>
+	<host-name>homebridge.home</host-name>
+	<port>52850</port>
+	<txt-record>sh=vm+Ndg==</txt-record>
+	<txt-record>ci=2</txt-record>
+	<txt-record>sf=0</txt-record>
+	<txt-record>s#=1</txt-record>
+	<txt-record>pv=1.1</txt-record>
+	<txt-record>md=homebridge</txt-record>
+	<txt-record>id=0E:74:83:84:2F:2F</txt-record>
+	<txt-record>ff=0</txt-record>
+	<txt-record>c#=3</txt-record>
+</service>
+</service-group>
